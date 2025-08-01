@@ -33,6 +33,12 @@ yarn hardhat node
 
 2. Deploy the contract:
 
+**▶️ Deploy to Local Hardhat Network (default)**
+```bash
+yarn hardhat run scripts/deploy.js
+```
+
+**🌐 Deploy to Sepolia Testnet**
 ```bash
 yarn hardhat run scripts/deploy.js --network sepolia
 ```
